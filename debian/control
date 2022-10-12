@@ -1,0 +1,25 @@
+Source: libtypes-serialiser-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libcommon-sense-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtypes-serialiser-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtypes-serialiser-perl.git
+Homepage: https://metacpan.org/release/Types-Serialiser
+Rules-Requires-Root: no
+
+Package: libtypes-serialiser-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libcommon-sense-perl
+Description: module providing simple data types for common serialisation formats
+ Types::Serialiser provides some extra datatypes that are used by common
+ serialisation formats such as JSON or CBOR. The idea is to have a repository
+ of simple/small constants and containers that can be shared by different
+ implementations so they become interoperable between each other.

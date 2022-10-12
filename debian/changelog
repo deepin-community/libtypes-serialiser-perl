@@ -1,0 +1,33 @@
+libtypes-serialiser-perl (1.01-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Debian Janitor ]
+  * Bump debhelper from deprecated 8 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+  * Import upstream version 1.01.
+  * Update years of packaging copyright.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 4.5.1.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 05 Dec 2020 17:03:09 +0100
+
+libtypes-serialiser-perl (1.0-1) unstable; urgency=low
+
+  * Initial release (closes: #731970).
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 11 Dec 2013 20:06:21 +0100
